@@ -3,6 +3,7 @@ import breast_cancer_prediction from "../assets/projects/breast_cancer_predictio
 import credit_card_fraud from "../assets/projects/credit_card_fraud.png";
 import quote_advice from "../assets/projects/quote_advice.png";
 import healthcare_portal from "../assets/projects/healthcare_portal.png";
+import Hotel_Booking from "../assets/projects/hotelapp.png";
 
 export const HERO_CONTENT = `  I am a passionate software developer skilled in building resilient and scalable web applications. With three years of hands-on experience, I have developed expertise in front-end technologies such as HTML, CSS, JavaScript, React JS, and Redux JS, as well as back-end technologies like Spring Boot, Spring MVC, Spring WebFlux, Node.js, and MS SQL Server. I aim to continuously explore new approaches to enhance user experiences and create innovative web applications.`;
 
@@ -40,6 +41,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Hotel Booking Application",
+    image: Hotel_Booking,
+    link: "https://github.com/Aruna777/Hotel-Booking-Application-Frontend",
+    description:
+      "Built a real-time Hotel Booking Application using React JS for the front-end and SpringBoot microservices for the back-end",
+    technologies: ["React", "Tailwind CSS", "SpringBoot", "Redux", "REST APIs"],
+  },
   {
     title: "Healthcare Portal",
     image: healthcare_portal,

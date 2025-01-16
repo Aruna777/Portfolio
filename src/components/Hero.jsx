@@ -1,8 +1,7 @@
-import React from "react";
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/arunaprofile.jpg";
-import { delay, motion } from "framer-motion";
-import { Container } from "postcss";
+import { motion } from "framer-motion";
+// import { Container } from "postcss";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
