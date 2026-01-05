@@ -5,14 +5,21 @@ import quote_advice from "../assets/projects/quote_advice.png";
 import healthcare_portal from "../assets/projects/healthcare_portal.png";
 import Hotel_Booking from "../assets/projects/hotelapp.png";
 
-export const HERO_CONTENT = `  I am a passionate software developer skilled in building resilient and scalable web applications. With three years of hands-on experience, I have developed expertise in front-end technologies such as HTML, CSS, JavaScript, React JS, and Redux JS, as well as back-end technologies like Spring Boot, Spring MVC, Spring WebFlux, Node.js, and MS SQL Server. I aim to continuously explore new approaches to enhance user experiences and create innovative web applications.`;
+export const HERO_CONTENT = `  I am a passionate software developer skilled in building resilient and scalable web applications. With 3+ years of experience, I have developed expertise in front-end technologies such as HTML, CSS, JavaScript, React JS, and Redux JS, as well as back-end technologies like Spring Boot, Spring MVC, Spring WebFlux, Node.js, and MS SQL Server. I aim to continuously explore new approaches to enhance user experiences and create innovative web applications.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Software developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React JS, Tailwind CSS, Node.js, MS SQL Server and PostgreSQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Software developer with a passion for creating efficient and user-friendly web applications. With 3+ years of professional experience, I have worked with a variety of technologies, including React JS, Tailwind CSS, Node.js, MS SQL Server and PostgreSQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "August'23 - Present",
+    year: "January'25 - Present",
     role: "Software Engineer",
+    company: "Verizon",
+    description: `Migrated an enterprise Verizon Business e-commerce application from Angular to React, improving performance and UX.Implemented state management using Redux, ensuring data flow and improved application stability across complex user journeys.Integrated frontend components with backend REST APIs, handling authentication, product flows, and account-related transactions.`,
+    technologies: ["TypeScript", "React.js", "Redux", "Java"],
+  },
+  {
+    year: "August'23 - Present",
+    role: "Software Development Engineer",
     company: "V3 Tech Solutions",
     description: `Built a responsive ReactJS front-end connecting to Node.js/Express.js back-end servers. Developed server-based applications, implemented efficient routing, and created RESTful APIs for integration. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "Tailwind CSS", "React.js", "Redux"],
