@@ -12,14 +12,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Software developer wit
 export const EXPERIENCES = [
   {
     year: "January'25 - Present",
-    role: "Software Engineer",
+    role: "Software Development Engineer",
     company: "Verizon",
     description: `Migrated an enterprise Verizon Business e-commerce application from Angular to React, improving performance and UX.Implemented state management using Redux, ensuring data flow and improved application stability across complex user journeys.Integrated frontend components with backend REST APIs, handling authentication, product flows, and account-related transactions.`,
     technologies: ["TypeScript", "React.js", "Redux", "Java"],
   },
   {
-    year: "August'23 - Present",
-    role: "Software Development Engineer",
+    year: "August'23 - January'25",
+    role: "Software Engineer",
     company: "V3 Tech Solutions",
     description: `Built a responsive ReactJS front-end connecting to Node.js/Express.js back-end servers. Developed server-based applications, implemented efficient routing, and created RESTful APIs for integration. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "Tailwind CSS", "React.js", "Redux"],
