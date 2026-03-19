@@ -25,25 +25,18 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "Tailwind CSS", "React.js", "Redux"],
   },
   {
-    year: "April'24 - August'24",
+    year: "April'24 - July'24",
     role: "Software Developer",
     company: "Porter Lee Corporation",
     description: `Designed and Implemented RESTful APIs using Delphi Framework to enhance Porter Lee’s Evidence Management System. Developed authentication and authorization protocols using JWT, ensuring secure data transmission. `,
     technologies: ["Delphi", "RESTful APIs", "MS SQL Server", "Java"],
   },
   {
-    year: "July'20 - May'21",
+    year: "January'21 - June'21",
     role: "Software Developer Intern",
-    company: "UNIQ Technologies",
+    company: "Kaashiv InfoTech",
     description: `Designed and developed user interfaces for web applications using React JS. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "React JS", "MS SQL Server"],
-  },
-  {
-    year: "August'19 - March'20",
-    role: "Data Analyst Intern",
-    company: "Kaashiv Info Tech",
-    description: ` Conducted exploratory data analysis on large datasets, identifying trends and patterns to support decision-making. Utilized statistical techniques to identify outliers and anomalies in datasets, improving data quality. Performed data visualization using Tableau, based on the analytical needs of the organization and our participants.`,
-    technologies: ["Tableau", "Python", "PostgreSQL", "Excel"],
   },
 ];
 
