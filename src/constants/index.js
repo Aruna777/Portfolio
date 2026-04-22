@@ -4,7 +4,8 @@ import credit_card_fraud from "../assets/projects/credit_card_fraud.png";
 import quote_advice from "../assets/projects/quote_advice.png";
 import healthcare_portal from "../assets/projects/healthcare_portal.png";
 import Hotel_Booking from "../assets/projects/hotelapp.png";
-
+import github_finder from "../assets/projects/github_finder.png";
+import ai_customer_support from "../assets/projects/ai_customer_support.png";
 export const HERO_CONTENT = `  I am a passionate software developer skilled in building resilient and scalable web applications. With 3+ years of experience, I have developed expertise in front-end technologies such as HTML, CSS, JavaScript, React JS, and Redux JS, as well as back-end technologies like Spring Boot, Spring MVC, Spring WebFlux, Node.js, and MS SQL Server. I aim to continuously explore new approaches to enhance user experiences and create innovative web applications.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile Software developer with a passion for creating efficient and user-friendly web applications. With 3+ years of professional experience, I have worked with a variety of technologies, including React JS, Tailwind CSS, Node.js, MS SQL Server and PostgreSQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -57,6 +58,28 @@ export const PROJECTS = [
     description:
       "Developed a Hospital Portal microservice application using React and Spring Boot which seamlessly integrates the back-end and front-end using APIs.",
     technologies: ["React", "Redux", "Spring Boot", "Rabbit MQ", "MySQL"],
+  },
+  {
+    title: "AI Customer Support Application",
+    image: ai_customer_support,
+    link: "https://github.com/Aruna777/ai-customer-suppport",
+    description:
+      "Built an AI-powered customer support system with RAG-based responses and Next.js Frontend, reducing reply time by ~80% and improving customer satisfaction.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "REST APIs",
+    ],
+  },
+  {
+    title: "GitHUb Finder Application",
+    image: github_finder,
+    link: "https://github.com/Aruna777/Github-finder",
+    description:
+      "Developed a React + Redux Toolkit app that searches GitHub users and displays their repositories, followers, and stats via the GitHub REST API",
+    technologies: ["React", "Tailwind CSS", "HTML", "Redux", "REST APIs"],
   },
   {
     title: "AI Summarizer Application",
